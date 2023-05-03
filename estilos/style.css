@@ -33,16 +33,23 @@ main{
     width: 267px;
     height: 471px;
 }
+/*
 #redes{
     text-align: right;
-    /*
+    position: relative;
+}
+div{
     position: absolute;
     height: 430px;
     width: 70px;
     top: 50%;
     left: 97%;
-    transform: translate(-50%, -50%);
-    Tentei essa configuração pra centralizar, mas apareceu barra de rolagem...*/
+    transform: translate(-50%, 25%);
+}
+tentei essas configurações para centralizar verticalmente, mas apareceram barras de rolagem. configuração original abaixo.
+*/
+#redes{
+    text-align: right;
 }
 #redes img{
     width: 50px;
